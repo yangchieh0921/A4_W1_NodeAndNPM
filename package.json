@@ -1,0 +1,31 @@
+{
+  "name": "a4_w3_nodeandnpm",
+  "version": "1.0.0",
+  "description": "learning node and npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yangchieh0921/A4_W3_NodeAndNPM.git"
+  },
+  "keywords": [
+    "node",
+    "npm",
+    "git",
+    "github",
+    "awesomeness"
+  ],
+  "author": "Chieh Yang",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "mysql": "^2.18.1",
+    "underscore": "^1.12.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

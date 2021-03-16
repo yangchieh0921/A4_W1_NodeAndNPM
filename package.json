@@ -1,11 +1,11 @@
 {
   "name": "a4_w3_nodeandnpm",
   "version": "1.0.0",
-  "description": "learning node and npm",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app"
+    "test": "echo \"Hello from Node!",
+    "start": "node app"
   },
   "repository": {
     "type": "git",

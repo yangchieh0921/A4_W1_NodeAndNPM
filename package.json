@@ -1,16 +1,34 @@
 {
-  "name": "a4-w3-nodeandnpm",
-  "version": "0.0.0",
-  "private": true,
+  "name": "a4_w1_nodeandnpm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "node ./bin/www"
+    "test": "echo \"Hello from Node!\"",
+    "start-dev": "nodemon app",
+    "start": "node app"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yangchieh0921/A4_W1_NodeAndNPM.git"
+  },
+  "keywords": [
+    "node",
+    "npm",
+    "git",
+    "github",
+    "awesomeness"
+  ],
+  "author": "TVR",
+  "license": "ISC",
   "dependencies": {
-    "cookie-parser": "~1.4.4",
-    "debug": "~2.6.9",
-    "express": "~4.16.1",
-    "http-errors": "~1.6.3",
-    "jade": "~1.11.0",
-    "morgan": "~1.9.1"
+    "express": "^4.17.1",
+    "gulp": "^4.0.2",
+    "mysql": "^2.18.1",
+    "underscore": "^1.12.0"
+  },
+  "devDependencies": {
+    "gulp-sass": "^4.1.0",
+    "nodemon": "^2.0.7"
   }
 }

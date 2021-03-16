@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Hello from Node!",
+    "start-dev": "nodemon app",
     "start": "node app"
   },
   "repository": {
